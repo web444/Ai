@@ -14,7 +14,7 @@ console.log(event);
 var content=event.results[0][0].transcript;
 console.log(content);
 document.getElementById("textbox").innerHTML=content;
-if(content=="Take my selfie."){
+if(content=="take my selfie"){
 
 console.log("taking selfie");
 speak();
